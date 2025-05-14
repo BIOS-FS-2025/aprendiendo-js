@@ -1,11 +1,22 @@
-let nombre = 'Ana';
+let nombre = "Ana";
 let edad = 20;
-let ciudad = 'Madrid';
+let ciudad = "Madrid";
 
 // Concatenación tradicional
 // let presentacion = 'Me llamo' + ' ' + nombre + ', tengo' + ' ' + edad + ' ' + 'años y vivo en' + ' ' + ciudad + '.';
-let presentacion = 'Me llamo' + ' ' + nombre + '\n' +
-  'Tengo' + ' ' + edad + ' ' + 'años y vivo en' + ' ' + ciudad + '.';
+let presentacion =
+  "Me llamo" +
+  " " +
+  nombre +
+  "\n" +
+  "Tengo" +
+  " " +
+  edad +
+  " " +
+  "años y vivo en" +
+  " " +
+  ciudad +
+  ".";
 
 // console.log(presentacion);
 
